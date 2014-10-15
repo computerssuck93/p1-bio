@@ -1,0 +1,55 @@
+/* Your Website Styles */
+body{
+
+	background-image: url('img/real_cf.png');
+  background-repeat: repeat;
+  background-color: #000000;
+}
+
+
+/*
+font-family: 'Balthazar', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+#music{
+  float: left;
+}
+
+#picture{
+
+
+}
+
+#header{
+  float: right;
+
+}
+
+
+h1.name{
+	font-family: 'bleeding_cowboysregular', sans-serif;
+	color: #FFFFFF;
+	font-style: normal;
+  font-weight: normal;
+  font-size: 3.0em;
+  float: right;
+  clear: right;
+  margin: 0;
+  padding: 0;
+}
+
+h2.major{
+
+  float: right;
+
+}
+
+
+p{
+	line-height: 36px;
+  max-width: 150px;
+
+}
+
+
