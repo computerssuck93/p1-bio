@@ -1,4 +1,6 @@
-/* Your Website Styles */
+/**********************
+GENERAL
+**********************/
 body{
 
 	background-image: url('img/real_cf.png');
@@ -12,35 +14,45 @@ font-family: 'Balthazar', serif;
 font-family: 'Roboto', sans-serif;
 
 */
+
+/**********************
+HEADER
+**********************/
 #music{
   float: left;
-}
-
-#picture{
-
-
-}
-
-#header{
-  float: right;
-
+  margin: 15px 0 0 0;
 }
 
 
-h1.name{
-	font-family: 'bleeding_cowboysregular', sans-serif;
+
+#picture img.my-pic{
+  max-width: 75%;
+  margin: 20px 0 0 70px;
+  border-radius: 10%;
+-webkit-box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
+box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
+}
+
+
+#header h1.name{
+  font-family: 'bleeding_cowboysregular', sans-serif;
 	color: #FFFFFF;
 	font-style: normal;
   font-weight: normal;
-  font-size: 3.0em;
+  font-size: 2.95em;
   float: right;
   clear: right;
-  margin: 0;
-  padding: 0;
+  margin: -15px 0 -15px 0;
+  padding: 0px;
 }
 
-h2.major{
-
+#header h2.major{
+  font-family: 'Balthazar', serif;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  font-weight: bold;
   float: right;
 
 }
