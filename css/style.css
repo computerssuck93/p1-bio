@@ -8,6 +8,16 @@ body{
   background-color: #000000;
 }
 
+#picture img.me{
+  max-width: 100%;
+  margin: 85px 10px 10px 10px;
+  clear: left;
+  border-radius: 10%;
+  -webkit-box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
+  box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
+}
+
 
 /*
 font-family: 'Balthazar', serif;
@@ -20,48 +30,101 @@ HEADER
 **********************/
 #music{
   float: left;
-  margin: 15px 0 0 0;
-}
-
-
-
-#picture img.my-pic{
-  max-width: 75%;
-  margin: 20px 0 0 70px;
-  border-radius: 10%;
--webkit-box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
--moz-box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
-box-shadow: 0px 0px 98px 31px rgba(0,0,0,1);
+  margin: 25px 0 5px 0;
 }
 
 
 #header h1.name{
   font-family: 'bleeding_cowboysregular', sans-serif;
-	color: #FFFFFF;
-	font-style: normal;
+  font-style: normal;
   font-weight: normal;
-  font-size: 2.95em;
+  font-size: 4.75em;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
   float: right;
   clear: right;
-  margin: -15px 0 -15px 0;
+  margin: -15px 0 0 0;
   padding: 0px;
 }
 
 #header h2.major{
   font-family: 'Balthazar', serif;
-  color: #FFFFFF;
-  letter-spacing: 0.1em;
+  font-size: 2.85em;
   font-style: normal;
   font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
   float: right;
+  clear: right;
+  margin: 15px 2px 0 0;
 
 }
 
 
-p{
-	line-height: 36px;
-  max-width: 150px;
+/**********************
+BACKGROUND INFO
+**********************/
+
+
+#background h2.Info{
+  font-family: 'Balthazar', serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
 
 }
 
 
+#background p{
+  color: #222222;
+
+}
+
+#background p:hover{
+  color: #FFFFFF;
+
+}
+
+/**********************
+OBJECTIVES
+**********************/
+#objectives h2.Info{
+  font-family: 'Balthazar', serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+
+}
+
+
+
+/**********************
+LINKS
+**********************/
+#links h2.Info{
+  font-family: 'Balthazar', serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+}
+
+
+
+/**********************
+CONTENT
+**********************/
+#addContent h2.Info{
+  font-family: 'Balthazar', serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+
+}
