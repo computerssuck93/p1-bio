@@ -13,10 +13,13 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700%20Balthazar' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/fonts.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	
+    <!-- This will disable all keyboard access -->
+    <script type="text/javascript" src="disable-kb.js"></script>
 	</head>
 
-	<body>
+    <!-- This body declaration disable all mouse access, both left and right click -->
+    <body onmousedown="alert('disable'); return false;" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+  <body>
 
     <!-- Clearfix -->
     <div class="container clearfix">
@@ -48,7 +51,7 @@
 
         <h2 class="Info">Why did i choose my major?</h2>
 
-        <p>Why did I choose CIS (Computer Information Systems) as my major? Well for a couple actually, the reason you're wondering about (&ldquo;Why not Computer Science?&rdquo;), was due to one factor alone. Computer Science and Computer Information Systems consist of nearly <span>identical</span> required courses. Moreover the very few classes that CS requires, are available as electives in CIS. However, the key difference is CS requires a shit ton more of math. Since i find math to be <a href="http://www.youtube.com/watch?v=T7CJO0QTbQk">annoying shit</a>, it wouldn't make since to not take choose the option to take the exact same courses, but not have to take as much math. Being that math is <a href="http://www.youtube.com/watch?v=T7CJO0QTbQk">well.....</a></p>
+        <p>Why did I choose CIS (Computer Information Systems) as my major? Well for a couple actually, the reason you're wondering about (&ldquo;Why not Computer Science?&rdquo;), was due to one factor alone. Computer Science and Computer Information Systems consist of nearly <span>identical</span> required courses. Moreover the very few classes that CS requires, are available as electives in CIS. However, the key difference is CS requires a shit ton more of math. Since i find math to be <a href="javascript:gaySeal();">annoying shit</a>, it wouldn't make since to not take choose the option to take the exact same courses, but not have to take as much math. Being that math is <a href="javascript:gaySeal();">well.....</a></p>
       </section>
 
       <div id="background" class="grid_7 omega">
@@ -90,8 +93,15 @@
           </ul>  
       </nav>
 
+      <audio id="gaaay" src="sounds/Gay-Seal.wav" preload="auto"></audio>
     <!-- ENDING DIV FOR "CLEARFIX", i.e. THE ENTIRE PAGE BODY -->
     </div>   
+
+      <script type="text/javascript">
+        function gaySeal() {
+          document.getElementById('gaaay').play();
+        }
+      </script> 
 
 	</body>
 
